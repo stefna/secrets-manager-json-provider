@@ -1,6 +1,6 @@
-# Stefna Secrets Manager - JSON File Adapter
+# Stefna Secrets Manager - JSON File Provider
 
-JSON File Adapter for [Stefna Secrets Manager](https://bitbucket.org/stefnadev/secrets-manager)
+JSON File Provider for [Stefna Secrets Manager](https://www.github.com/stefna/secrets-manager)
 
 ## Table of Contents
 

@@ -1,8 +1,8 @@
 {
 	"name": "stefna/secrets-manager-json-provider",
-	"description": "Secrets manager for stefna projects",
+	"description": "Json provider for secrets manager",
 	"type": "library",
-	"license": "proprietary",
+	"license": "MIT",
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"authors": [
@@ -15,21 +15,9 @@
 		"php": "^7.1 || ^8.0",
 		"ext-json": "*"
 	},
-	"require-dev": {
-		"stefna/codestyle": "^1.5",
-		"phpstan/phpstan": "^0.12.62"
-	},
 	"autoload": {
 		"psr-4": {
 			"Stefna\\SecretsManager\\Provider\\JsonProvider\\": "src/"
 		}
-	},
-	"autoload-dev": {
-		"psr-4": {
-			"Stefna\\SecretsManager\\Provider\\JsonProvider\\Tests\\": "tests/"
-		}
-	},
-	"repositories": [
-		{"type": "composer", "url": "https://repo.packagist.com/stefnadev/"}
-	]
+	}
 }

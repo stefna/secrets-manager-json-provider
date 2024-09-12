@@ -11,8 +11,7 @@ final class JsonProvider extends ArrayProvider
 	private const FIELD_VALUE = 'value';
 	private const FIELD_METADATA = 'metadata';
 
-	/** @var string */
-	private $file;
+	private string $file;
 
 	/**
 	 * If $data is null will read file and parse content
@@ -84,6 +83,6 @@ final class JsonProvider extends ArrayProvider
 				self::FIELD_METADATA => $secret->getMetadata(),
 			];
 		}
-		file_put_contents($this->file, json_encode($data, JSON_PRETTY_PRINT|JSON_UNESCAPED_SLASHES));
+		file_put_contents($this->file, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES));
 	}
 }
